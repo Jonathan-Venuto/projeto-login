@@ -2,11 +2,58 @@
 
 *
 {
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 :root /*paleta de cores*/ 
 {
     --V-cor: #49a09d;
-    --L-cor: #5f2c82;
+    --L-cor: #653c83;
+}
+
+body, html
+{
+    background-color: var(--L-cor);
+    width: 100vw;
+    height:100vh;
+}
+
+main
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.452);
+}
+
+section#login > div#imagem
+{
+    display: block;
+    background: var(--L-cor) url(../imagens/fundo-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+ 
+}
+
+section#login > div#formulario
+{
+    display: block;
+    padding: 10px;
 }
