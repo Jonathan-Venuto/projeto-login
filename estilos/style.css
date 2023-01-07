@@ -87,6 +87,14 @@ form > div.campo
 
 }
 
+span.material-symbols-outlined
+{
+    color: #ffffff;
+    background-color: black;
+
+
+}
+
 form > input[type=submit]
 {
     display: block;
