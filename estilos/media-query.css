@@ -35,6 +35,39 @@
 
     }
 
+    form > input[type=submit]
+{
+    display: block;
+    font-size: 0.8em;
+    width: 90%;
+    height: 30px;
+    background-color: var(--V-cor);
+    color: #ffffff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+   
+
+}
+
+form > a.botao
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #49a09d;
+    font-size: 0.8em;
+    width: 90%;
+    height:30%;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) /* = ESTILO PARA PC'S*/
@@ -67,6 +100,41 @@
         font-size: 1.2em;
 
     }
+
+    form > input[type=submit]
+    {
+        display: block;
+        font-size: 0.8em;
+        width: 90%;
+        height: 30px;
+        background-color: var(--V-cor);
+        color: #ffffff;
+        border:none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 5px;
+       
+    
+    }
+
+    form > a.botao
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #49a09d;
+    font-size: 0.8em;
+    width: 90%;
+    height:30%;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+    
 
 }
 
@@ -107,6 +175,37 @@
         font-size: 1.2em;
 
     }
+
+    form > input[type=submit]
+    {
+        display: block;
+        font-size: 0.8em;
+        width: 90%;
+        height: 30px;
+        background-color: var(--V-cor);
+        color: #ffffff;
+        border:none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 5px;
+       
+    
+    }
+
+    form > a.botao
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #49a09d;
+    font-size: 0.8em;
+    width: 90%;
+    height:30%;
+    padding: 5px;
+    margin-top: 5px;
 
     
    
