@@ -41,8 +41,7 @@ section#login
     border-radius: 10px;
     transform: translate(-50%,-50%);
     overflow: hidden;
-    box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.452);
-
+    transform: translate(-50%,-50%);
     transition: width .2s, height .2s;
 }
 
@@ -80,7 +79,7 @@ form > div.campo
     background-color:var(--L-cor);
     display: block;
     margin: 5px 0px;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 3px 0px;
     
 
@@ -90,8 +89,28 @@ form > div.campo
 span.material-symbols-outlined
 {
     color: #ffffff;
-    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 
+
+}
+
+div.campo > input
+{
+    background-color: #49a09d;
+    
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    transform: translateY(-10px);
+
+}
+
+div.compo > input:focus-within
+{
+    background-color: #ffffff;
+    border: none;
 
 }
 
